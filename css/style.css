@@ -1,0 +1,262 @@
+.navbar-brand {
+  font-size: 2.25rem;
+  margin-right: 0;
+}
+
+.navbar-brand .logo {
+  width: 60px;
+  height: 60px;
+  background: #ffffff url('../img/logo.png') no-repeat center center;
+  float: right;
+  border-radius: 60px;
+  margin-left: 10px;
+}
+
+.bg-dark {
+  background-color: #1d1d1d!important;
+}
+
+.bg-dark-transparent {
+  background-color: rgba(29,29,29,0.8);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #f7fbf4;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 2rem;
+  padding-left: 2rem;
+  font-size: 1.1em;
+}
+
+.nav-item {
+  border-left: 1px solid #ffffff;
+}
+
+.nav-link {
+  padding: 0;
+}
+
+.nav-item:last-of-type {
+  border: 0;
+  background: url('../img/log-out.svg') no-repeat left center;
+}
+
+.jumbotron.night-city-bg {
+  background: url(../img/night-city-bg.png);
+  border-radius: 0;
+  background-size: cover;
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+h1.display-3 {
+  font-size: 7rem;
+}
+
+.container.bg-dark-transparent {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-right: 35px;
+  padding-left: 55px;
+}
+
+.form-group {
+  margin-bottom: 2rem;
+}
+
+.form-control {
+  background: rgba(255, 255, 255, 0);
+  border-radius: 0;
+  border: 2px solid #ffffff;
+  line-height: 2;
+}
+
+.form-control:focus {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.icon-input {
+  background-repeat: no-repeat;
+  background-position: calc(100% - 15px) center;
+  padding-right: 40px;
+  color: #f0f4ed;
+}
+
+.email-input {
+  background-image: url(../img/user.svg);
+}
+
+.password-input {
+  background-image: url(../img/password.png);
+  background-position: calc(100% - 5px) center;
+}
+
+.btn-primary {
+  background-color: #ff851e;
+  color: #1d1d1d;
+  border: 0;
+  border-radius: 0;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active {
+  background-color: #ff851e;
+  color: #1d1d1d;
+  border: 0;
+}
+
+.btn-special {
+  background: #ff851e url('../img/log-in.svg') no-repeat calc(50% + 7px) center;
+  width: 100%;
+  height: 158px;
+  font-size: 0;
+}
+
+.btn-special-label {
+  bottom: 10px;
+  position: absolute;
+  padding: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  font-size: 1.5rem;
+  color: #1d1d1d;
+}
+
+.pass-link, .pass-link:hover {
+  color: #ff851e;
+  text-decoration: underline;
+}
+
+.blue-box {
+  background-color: rgba(4,81,109,0.8);
+  height: 225px;
+  color: #f7fbf4;
+}
+
+.blue-box span {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.blue-box img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.blue-boxes-container {
+  margin-top: 130px;
+}
+
+.col-form {
+  max-width: 640px;
+}
+
+@media (min-width: 1200px) {
+  .container {
+      max-width: 1280px;
+  }
+}
+
+@media (max-width: 990px) {
+  .navbar-brand {
+      font-size: 1.5rem;
+  }
+
+  .navbar-brand .logo {
+    background-size: 90%;
+    width: 40px;
+    height: 40px;
+  }
+
+  .navbar-toggler {
+    border: 0;
+    padding: .25rem;
+  }
+
+  .navbar-dark .navbar-toggler-icon {
+    background-image: url(../img/menu-icon.png);
+  }
+
+  .navbar-nav {
+    padding-right: 0;
+    text-align: right;
+  }
+
+  .nav-item {
+    border: none;
+  }
+
+  .nav-item:last-of-type {
+    background-position: calc(100% - 90px) center;
+  }
+
+  .navbar .container {
+    max-width: none;
+  }
+
+  .blue-boxes-container .col-6 {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .desktop-only {
+    display: none;
+  }
+
+  .container.bg-dark-transparent {
+    padding: 30px;
+  }
+
+  .btn-special {
+    background-image: none;
+    height: auto;
+    font-size: 2rem;
+    color: #ffffff;
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .jumbotron.night-city-bg {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .jumbotron.night-city-bg > .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .container.bg-dark-transparent {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .blue-box {
+    height: 170px;
+  }
+
+  .blue-boxes-container {
+    margin-top: 50px;
+  }
+
+  .blue-boxes-container .row {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .blue-boxes-container .col-6 {
+    margin-bottom: 30px;
+  }
+}
