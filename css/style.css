@@ -56,6 +56,10 @@ h1.display-3 {
   font-size: 7rem;
 }
 
+.container {
+    overflow-x: hidden;
+}
+
 .container.bg-dark-transparent {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -259,4 +263,8 @@ h1.display-3 {
   .blue-boxes-container .col-6 {
     margin-bottom: 30px;
   }
+}
+
+html {
+  overflow-x: hidden;
 }
